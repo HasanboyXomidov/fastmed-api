@@ -1,0 +1,9 @@
+alembic revision --autogenerate -m "create users table" #1.For creating migrations
+alembic upgrade head
+
+
+pip freeze > requirements.txt
+
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
