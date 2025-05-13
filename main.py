@@ -17,7 +17,7 @@ app = FastAPI()
 #     finally:
 #         db.close()
 # Jadvalni yaratish
-Base.metadata.create_all(bind=engine)
+# Base.metadata.create_all(bind=engine)
 
 #  <----- web-sockets:start ----->
 
